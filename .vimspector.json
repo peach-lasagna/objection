@@ -1,0 +1,18 @@
+{
+  "configurations": {
+    "Launch": {
+      "adapter": "debugpy",
+      "configuration": {
+        "name": "Launch",
+        "type": "python",
+        "request": "launch",
+        "cwd": ".",
+        "python": "python3",
+        "stopOnEntry": true,
+        "console": "externalTerminal",
+        "debugOptions": [],
+        "program": "./objection/call.py"
+      }
+    }
+  }
+}
